@@ -37,7 +37,7 @@ end)
     -- Commands --
 ---------------------------
 
-lib.addCommand({"playtime", "level", "levelup"}, {
+lib.addCommand({"playtime"}, {
     help = 'Display your character\'s playtime.',
 }, function(source, args)
     local xPlayer = ESX.GetPlayerFromId(source)
