@@ -40,7 +40,7 @@ lib.onCache('weapon', function()
             TriggerEvent('chat:addMessage', {
                 color = { 255, 0, 0},
                 multiline = false,
-                args = {"^1[ ! ]: ^0You need 3/4 hours of play time to use a weapon on this character."}
+                args = {"^1[ ! ]: ^0You need 1/2 hours of play time to use a weapon on this character."}
             })
         end
     end
